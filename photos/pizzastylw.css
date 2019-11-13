@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #000000;
+}
+wrapper {
+    width: 1180px;
+    height: 4500px;
+    background-color: #ffffff;
+    position: relative;
+    margin: 0 auto;
+    color: black;
+    text-align: -moz-center;
+    padding-top: 50px;
+    margin-top: 40px;
+}
+
+nav {
+    width: 1180px;
+    height: 100px;
+    background-color: #c0c0c0;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+
+p#nav-section-01,p#nav-section-02,p#nav-section-03,p#nav-section-04,p#nav-section-05 {
+    display: inline;
+    font-size: 24px;
+    font-family: MODERNSPACE, arial, sans-serif;
+    font-weight: bold;
+    padding: 0 25px;
+    text-align-all: center;
+    margin-top: 20px;
+
+
+}
+
+a:Link {
+    text-decoration: none;
+    color: #000000;
+}
+a:hover {
+    text-decoration: none;
+    color: #ff0202;
+}
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+.times {
+    font-family: Rosella, Times, Serif;
+    color: white;
+    margin-left: 110px;
+    margin-top: 10px;
+    font-size: 20px;
+
+}
+.logo {
+    float: left;
+    margin-top: 0px;
+}
+.box1 {
+    margin-left: 90px;
+    color: white;
+}
+.cooking {
+    left: 490px;
+    top: 100px;
+    position: absolute;
+}
+.line2 {
+    font-family: Rosella, white;
+    font-size: 20px;
+    font-kerning: normal;
+   width: 1180px;
+    height: 100px;
+    background-color: #c0c0c0;
+margin: 0 auto;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+    align-content: center;
+
+}
+.quotes {
+    display: inline;
+    margin-right: 10px;
+    padding-top: 0;
+}
+.smiles {
+    position: absolute;
+left: 90px;
+    top: 435px;
+}
+.deliver {
+    position: absolute;
+    left: 260px;
+    top: 440px;
+}
+.order {
+    position: absolute;
+    left: 480px;
+    top: 625px;
+    border: none;
+    width: 90px;
+    height: 20px;
+    font-family: Helvetica;
+}
+.images2 {
+    position: absolute;
+    left: 645px;
+}
+.images3 {
+    position: absolute;
+    left: 955px;
+}
+.prices {
+    font-family: Rosella;
+    color: white;
+}
+.zone {
+    width: 380px;
+    height: 230px;
+    left:0px;
+    top: 130px;
+    background-color: black;
+    position: absolute;
+    font-family: Rosella;
+    color: white;
+    margin-left: 90px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+}
+.zonemap {
+padding-left: 500px;
+}
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+    padding: 10px 100px;
+    top: 200px;
+    bottom: 300px;
+    position: absolute;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 10px 20px;
+    display: block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+
+/* Set a style for the submit/register button */
+.registerbtn {
+    background-color: #ff0202;
+    color: white;
+    padding: 16px 20px;
+    margin: 30px 50px;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.9;
+
+}
+
+.registerbtn:hover {
+    opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+    color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.faq {
+    font-family: "Helvetica Neue", light;
+    color: white;
+    text-align: left;
+    margin-left: 100px;
+
+}
+.titles {
+    font-family: Rosella;
+    color: white;
+    margin-left: 100px;
+    padding-top: 10px;
+    font-size: 30px;
+}
+.apply {
+    width: 380px;
+    height: 230px;
+    left:800px;
+    top: 100px;
+    background-color: #7b7b7b;
+    position: absolute;
+    font-family: Rosella;
+    color: #000000;
+    margin-left: 90px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+}
+.button {
+    width: 160px;
+    height: 60px;
+    font-family: MODERNSPACE, bold;
+    text-align: center;
+    padding-top: 10px;
+    color: black;
+    left: 1000px;
+    top: 250px;
+    background-color: white;
+    position: absolute;
+}
+a:hover {
+    color: red;
+    text-decoration-line: none;
+}
+.titles2 {
+    font-family: Helvetica;
+    color: white;
+    margin-left: 90px;
+}
+.location1 {
+    padding-left: 400px;
+    padding-top: 80px;
+}
+.veg {
+    font-family: Rosella;
+    color: white;
+    left: 1080px;
+    top: 100px;
+    height: 230;
+    width: 380;
+    position: absolute;
+    text-align: center;
+    padding-top: 70px;
+    font-size: 20px;
+}
+
+
+
